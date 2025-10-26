@@ -1,2 +1,2 @@
 # ReplantAPI
-API created to help mod Plants Vs Zombies: Replanted
+## LETS FIX PVZ REPLANTED AS A COMMUNITY SINCE EA IS ALL ABOUT MONEY INSTEAD OF THE COMMUNITY!
