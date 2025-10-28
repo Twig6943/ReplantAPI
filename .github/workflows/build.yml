@@ -12,7 +12,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         
-        - name: Restore NuGet Packages
+      - name: Restore NuGet Packages
         run: dotnet restore ReplantAPI.sln
 
       - name: Build Project
