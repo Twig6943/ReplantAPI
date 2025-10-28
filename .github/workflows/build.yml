@@ -12,16 +12,13 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Install .NET SDK via Chocolatey
-        shell: pwsh
-        run: |
-          choco install dotnet4.7.2 -y
+      - name: Install .NET SDK
+        uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: '4.7.2'
 
-      - name: Restore NuGet Packages
-        run: dotnet restore ReplantAPI.sln
-
-      - name: Build All Projects
-        run: dotnet build ReplantAPI.sln -c Release
+      - name: Build Project
+        run: dotnet build ReplantAPI.csproj -c Release
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
