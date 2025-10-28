@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\henry\\source\\repos\\ReplantAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A08C9E49-5331-4F3E-B79C-C3885AAA4AA5}|ReplantAPI\\ReplantAPI.csproj|c:\\users\\henry\\source\\repos\\replantapi\\replantapi\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A08C9E49-5331-4F3E-B79C-C3885AAA4AA5}|ReplantAPI\\ReplantAPI.csproj|solutionrelative:replantapi\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A08C9E49-5331-4F3E-B79C-C3885AAA4AA5}|ReplantAPI\\ReplantAPI.csproj|c:\\users\\henry\\source\\repos\\replantapi\\replantapi\\core\\replantapiloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A08C9E49-5331-4F3E-B79C-C3885AAA4AA5}|ReplantAPI\\ReplantAPI.csproj|solutionrelative:replantapi\\core\\replantapiloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A08C9E49-5331-4F3E-B79C-C3885AAA4AA5}|ReplantAPI\\ReplantAPI.csproj|c:\\users\\henry\\source\\repos\\replantapi\\replantapi\\core\\updatechecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A08C9E49-5331-4F3E-B79C-C3885AAA4AA5}|ReplantAPI\\ReplantAPI.csproj|solutionrelative:replantapi\\core\\updatechecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A08C9E49-5331-4F3E-B79C-C3885AAA4AA5}|ReplantAPI\\ReplantAPI.csproj|c:\\users\\henry\\source\\repos\\replantapi\\replantapi\\core\\boardupdatepatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A08C9E49-5331-4F3E-B79C-C3885AAA4AA5}|ReplantAPI\\ReplantAPI.csproj|solutionrelative:replantapi\\core\\boardupdatepatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\henry\\source\\repos\\ReplantAPI\\ReplantAPI\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "ReplantAPI\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\henry\\source\\repos\\ReplantAPI\\ReplantAPI\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "ReplantAPI\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T00:35:53.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReplantAPILoader.cs",
+              "DocumentMoniker": "C:\\Users\\henry\\source\\repos\\ReplantAPI\\ReplantAPI\\Core\\ReplantAPILoader.cs",
+              "RelativeDocumentMoniker": "ReplantAPI\\Core\\ReplantAPILoader.cs",
+              "ToolTip": "C:\\Users\\henry\\source\\repos\\ReplantAPI\\ReplantAPI\\Core\\ReplantAPILoader.cs",
+              "RelativeToolTip": "ReplantAPI\\Core\\ReplantAPILoader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T23:48:51.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateChecker.cs",
+              "DocumentMoniker": "C:\\Users\\henry\\source\\repos\\ReplantAPI\\ReplantAPI\\Core\\UpdateChecker.cs",
+              "RelativeDocumentMoniker": "ReplantAPI\\Core\\UpdateChecker.cs",
+              "ToolTip": "C:\\Users\\henry\\source\\repos\\ReplantAPI\\ReplantAPI\\Core\\UpdateChecker.cs",
+              "RelativeToolTip": "ReplantAPI\\Core\\UpdateChecker.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAuwFoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T23:48:46.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BoardUpdatePatch.cs",
+              "DocumentMoniker": "C:\\Users\\henry\\source\\repos\\ReplantAPI\\ReplantAPI\\Core\\BoardUpdatePatch.cs",
+              "RelativeDocumentMoniker": "ReplantAPI\\Core\\BoardUpdatePatch.cs",
+              "ToolTip": "C:\\Users\\henry\\source\\repos\\ReplantAPI\\ReplantAPI\\Core\\BoardUpdatePatch.cs",
+              "RelativeToolTip": "ReplantAPI\\Core\\BoardUpdatePatch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T23:48:35.038Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
