@@ -12,10 +12,10 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Install .NET 8 SDK via Chocolatey
+      - name: Install .NET SDK via Chocolatey
         shell: pwsh
         run: |
-          choco install dotnet-8.0-sdk -y
+          choco install dotnet4.7.2 -y
 
       - name: Restore NuGet Packages
         run: dotnet restore ReplantAPI.sln
@@ -28,4 +28,4 @@ jobs:
         with:
           name: Release
           path: |
-            ReplantAPI/bin/Release/net8.0-windows/win-x86
+            ReplantAPI/bin/Release/net4.7.2-windows/win-x86
