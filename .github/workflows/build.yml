@@ -1,0 +1,31 @@
+name: Build on Windows
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build on Windows
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install .NET 8 SDK via Chocolatey
+        shell: pwsh
+        run: |
+          choco install dotnet-8.0-sdk -y
+
+      - name: Restore NuGet Packages
+        run: dotnet restore ReplantAPI.sln
+
+      - name: Build All Projects
+        run: dotnet build ReplantAPI.sln -c Release
+
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: Release
+          path: |
+            ReplantAPI/bin/Release/net8.0-windows/win-x86
