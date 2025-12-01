@@ -1,23 +1,19 @@
-name: Build on Windows
+name: MSBuild
 
-on:
-  workflow_dispatch:
+on: [workflow_dispatch]
 
 jobs:
   build:
-    name: Build on Windows
-    runs-on: windows-2025
+    runs-on: windows-latest
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+    - uses: actions/checkout@v4
 
-      - name: Build Project
-        run: msbuild ReplantAPI.sln -c Release
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v2
 
-      - name: Upload Artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: Release
-          path: |
-            ReplantAPI/bin/Release/net4.7.2-windows/win-x86
+    - name: Restore NuGet packages
+      run: nuget restore ReplantAPI.sln
+
+    - name: Build solution
+      run: msbuild ReplantAPI.sln /p:Configuration=Release
